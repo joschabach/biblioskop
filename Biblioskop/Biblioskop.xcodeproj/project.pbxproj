@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F148A2EB166530810050C0E7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F148A2EA166530810050C0E7 /* Cocoa.framework */; };
+		F148A2F5166530810050C0E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F148A2F3166530810050C0E7 /* InfoPlist.strings */; };
+		F148A2F7166530810050C0E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F148A2F6166530810050C0E7 /* main.m */; };
+		F148A2FB166530810050C0E7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F148A2F9166530810050C0E7 /* Credits.rtf */; };
+		F148A2FE166530810050C0E7 /* biblioAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F148A2FD166530810050C0E7 /* biblioAppDelegate.m */; };
+		F148A301166530810050C0E7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F148A2FF166530810050C0E7 /* MainMenu.xib */; };
+		F148A309166530810050C0E7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F148A308166530810050C0E7 /* SenTestingKit.framework */; };
+		F148A30A166530810050C0E7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F148A2EA166530810050C0E7 /* Cocoa.framework */; };
+		F148A312166530810050C0E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F148A310166530810050C0E7 /* InfoPlist.strings */; };
+		F148A315166530810050C0E7 /* BiblioskopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F148A314166530810050C0E7 /* BiblioskopTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F148A30B166530810050C0E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F148A2DD166530810050C0E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F148A2E5166530810050C0E7;
+			remoteInfo = Biblioskop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F148A2E6166530810050C0E7 /* Biblioskop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Biblioskop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F148A2EA166530810050C0E7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F148A2ED166530810050C0E7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F148A2EE166530810050C0E7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F148A2EF166530810050C0E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F148A2F2166530810050C0E7 /* Biblioskop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Biblioskop-Info.plist"; sourceTree = "<group>"; };
+		F148A2F4166530810050C0E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F148A2F6166530810050C0E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F148A2F8166530810050C0E7 /* Biblioskop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Biblioskop-Prefix.pch"; sourceTree = "<group>"; };
+		F148A2FA166530810050C0E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F148A2FC166530810050C0E7 /* biblioAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = biblioAppDelegate.h; sourceTree = "<group>"; };
+		F148A2FD166530810050C0E7 /* biblioAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = biblioAppDelegate.m; sourceTree = "<group>"; };
+		F148A300166530810050C0E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F148A307166530810050C0E7 /* BiblioskopTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiblioskopTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F148A308166530810050C0E7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F148A30F166530810050C0E7 /* BiblioskopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BiblioskopTests-Info.plist"; sourceTree = "<group>"; };
+		F148A311166530810050C0E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F148A313166530810050C0E7 /* BiblioskopTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BiblioskopTests.h; sourceTree = "<group>"; };
+		F148A314166530810050C0E7 /* BiblioskopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BiblioskopTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F148A2E3166530810050C0E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F148A2EB166530810050C0E7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F148A303166530810050C0E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F148A309166530810050C0E7 /* SenTestingKit.framework in Frameworks */,
+				F148A30A166530810050C0E7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F148A2DB166530810050C0E7 = {
+			isa = PBXGroup;
+			children = (
+				F148A2F0166530810050C0E7 /* Biblioskop */,
+				F148A30D166530810050C0E7 /* BiblioskopTests */,
+				F148A2E9166530810050C0E7 /* Frameworks */,
+				F148A2E7166530810050C0E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F148A2E7166530810050C0E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F148A2E6166530810050C0E7 /* Biblioskop.app */,
+				F148A307166530810050C0E7 /* BiblioskopTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F148A2E9166530810050C0E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F148A2EA166530810050C0E7 /* Cocoa.framework */,
+				F148A308166530810050C0E7 /* SenTestingKit.framework */,
+				F148A2EC166530810050C0E7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F148A2EC166530810050C0E7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F148A2ED166530810050C0E7 /* AppKit.framework */,
+				F148A2EE166530810050C0E7 /* CoreData.framework */,
+				F148A2EF166530810050C0E7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F148A2F0166530810050C0E7 /* Biblioskop */ = {
+			isa = PBXGroup;
+			children = (
+				F148A2FC166530810050C0E7 /* biblioAppDelegate.h */,
+				F148A2FD166530810050C0E7 /* biblioAppDelegate.m */,
+				F148A2FF166530810050C0E7 /* MainMenu.xib */,
+				F148A2F1166530810050C0E7 /* Supporting Files */,
+			);
+			path = Biblioskop;
+			sourceTree = "<group>";
+		};
+		F148A2F1166530810050C0E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F148A2F2166530810050C0E7 /* Biblioskop-Info.plist */,
+				F148A2F3166530810050C0E7 /* InfoPlist.strings */,
+				F148A2F6166530810050C0E7 /* main.m */,
+				F148A2F8166530810050C0E7 /* Biblioskop-Prefix.pch */,
+				F148A2F9166530810050C0E7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F148A30D166530810050C0E7 /* BiblioskopTests */ = {
+			isa = PBXGroup;
+			children = (
+				F148A313166530810050C0E7 /* BiblioskopTests.h */,
+				F148A314166530810050C0E7 /* BiblioskopTests.m */,
+				F148A30E166530810050C0E7 /* Supporting Files */,
+			);
+			path = BiblioskopTests;
+			sourceTree = "<group>";
+		};
+		F148A30E166530810050C0E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F148A30F166530810050C0E7 /* BiblioskopTests-Info.plist */,
+				F148A310166530810050C0E7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F148A2E5166530810050C0E7 /* Biblioskop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F148A318166530810050C0E7 /* Build configuration list for PBXNativeTarget "Biblioskop" */;
+			buildPhases = (
+				F148A2E2166530810050C0E7 /* Sources */,
+				F148A2E3166530810050C0E7 /* Frameworks */,
+				F148A2E4166530810050C0E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Biblioskop;
+			productName = Biblioskop;
+			productReference = F148A2E6166530810050C0E7 /* Biblioskop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F148A306166530810050C0E7 /* BiblioskopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F148A31B166530810050C0E7 /* Build configuration list for PBXNativeTarget "BiblioskopTests" */;
+			buildPhases = (
+				F148A302166530810050C0E7 /* Sources */,
+				F148A303166530810050C0E7 /* Frameworks */,
+				F148A304166530810050C0E7 /* Resources */,
+				F148A305166530810050C0E7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F148A30C166530810050C0E7 /* PBXTargetDependency */,
+			);
+			name = BiblioskopTests;
+			productName = BiblioskopTests;
+			productReference = F148A307166530810050C0E7 /* BiblioskopTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F148A2DD166530810050C0E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = biblio;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Joscha Bach";
+			};
+			buildConfigurationList = F148A2E0166530810050C0E7 /* Build configuration list for PBXProject "Biblioskop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F148A2DB166530810050C0E7;
+			productRefGroup = F148A2E7166530810050C0E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F148A2E5166530810050C0E7 /* Biblioskop */,
+				F148A306166530810050C0E7 /* BiblioskopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F148A2E4166530810050C0E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F148A2F5166530810050C0E7 /* InfoPlist.strings in Resources */,
+				F148A2FB166530810050C0E7 /* Credits.rtf in Resources */,
+				F148A301166530810050C0E7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F148A304166530810050C0E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F148A312166530810050C0E7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F148A305166530810050C0E7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F148A2E2166530810050C0E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F148A2F7166530810050C0E7 /* main.m in Sources */,
+				F148A2FE166530810050C0E7 /* biblioAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F148A302166530810050C0E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F148A315166530810050C0E7 /* BiblioskopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F148A30C166530810050C0E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F148A2E5166530810050C0E7 /* Biblioskop */;
+			targetProxy = F148A30B166530810050C0E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F148A2F3166530810050C0E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F148A2F4166530810050C0E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F148A2F9166530810050C0E7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F148A2FA166530810050C0E7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F148A2FF166530810050C0E7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F148A300166530810050C0E7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F148A310166530810050C0E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F148A311166530810050C0E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F148A316166530810050C0E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F148A317166530810050C0E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F148A319166530810050C0E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Biblioskop/Biblioskop-Prefix.pch";
+				INFOPLIST_FILE = "Biblioskop/Biblioskop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F148A31A166530810050C0E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Biblioskop/Biblioskop-Prefix.pch";
+				INFOPLIST_FILE = "Biblioskop/Biblioskop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F148A31C166530810050C0E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Biblioskop.app/Contents/MacOS/Biblioskop";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Biblioskop/Biblioskop-Prefix.pch";
+				INFOPLIST_FILE = "BiblioskopTests/BiblioskopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F148A31D166530810050C0E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Biblioskop.app/Contents/MacOS/Biblioskop";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Biblioskop/Biblioskop-Prefix.pch";
+				INFOPLIST_FILE = "BiblioskopTests/BiblioskopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F148A2E0166530810050C0E7 /* Build configuration list for PBXProject "Biblioskop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F148A316166530810050C0E7 /* Debug */,
+				F148A317166530810050C0E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F148A318166530810050C0E7 /* Build configuration list for PBXNativeTarget "Biblioskop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F148A319166530810050C0E7 /* Debug */,
+				F148A31A166530810050C0E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F148A31B166530810050C0E7 /* Build configuration list for PBXNativeTarget "BiblioskopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F148A31C166530810050C0E7 /* Debug */,
+				F148A31D166530810050C0E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F148A2DD166530810050C0E7 /* Project object */;
+}
